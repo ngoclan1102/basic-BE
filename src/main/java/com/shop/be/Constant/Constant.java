@@ -10,6 +10,14 @@ public class Constant {
         }
     }
 
+    public static final class Role{
+        public static final String USER = "USER";
+        public static final String ADMIN = "ADMIN";
+
+        private Role() {
+        }
+    }
+
     public static final class Cart{
         public static final String addCartFail = "Can't add products to cart!!!";
         public static final String deleteCartFail = "Can't delete products in cart!!!";
